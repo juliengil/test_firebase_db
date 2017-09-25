@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/display_sku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="sku placeholder"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textAlignment="textStart" />
+
+    <TextView
+        android:id="@+id/display_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="name placeholder"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textAlignment="textStart" />
+
+    <TextView
+        android:id="@+id/display_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="price placeholder"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textAlignment="textStart" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.12" />
+
+    <Button
+        android:text="Add to cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_to_cart_button" />
+
+</LinearLayout>
